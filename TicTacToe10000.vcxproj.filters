@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MT2D">
+      <UniqueIdentifier>{5954be72-32df-4455-8f14-2c6ae5b89bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MT2D\MessageBox">
+      <UniqueIdentifier>{69a660c3-e21a-4d14-a376-29bbc0c978c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MT2D\Cursor">
+      <UniqueIdentifier>{51820ee3-8921-4b67-b6ac-eac8e6717f36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D.cpp">
+      <Filter>MT2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Display.cpp">
+      <Filter>MT2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Keyboard.cpp">
+      <Filter>MT2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Layout.cpp">
+      <Filter>MT2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_System_Calls.cpp">
+      <Filter>MT2D</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="Texto.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MessageBox\MT2D_MessageBox_With_Result.cpp">
+      <Filter>MT2D\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\Cursor\Cursor.cpp">
+      <Filter>MT2D\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MessageBox\MT2D_MessageBox.cpp">
+      <Filter>MT2D\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Display.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Keyboard.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Layout.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_System_Calls.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MT2D_Terminal_Define.h">
+      <Filter>MT2D</Filter>
+    </ClInclude>
+    <ClInclude Include="peca.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+    <ClInclude Include="Texto.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MessageBox\MT2D_MessageBox_With_Result.h">
+      <Filter>MT2D\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\Cursor\Cursor.h">
+      <Filter>MT2D\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Frameworks\MT2D 2.0\MT2D\MessageBox\MT2D_MessageBox.h">
+      <Filter>MT2D\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
